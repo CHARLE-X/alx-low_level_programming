@@ -1,7 +1,3 @@
-/*
- * File: 102-print_comb5.c
- * Auth: Brennan D Baraban
- */
 
 #include <stdio.h>
 
