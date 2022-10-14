@@ -1,4 +1,7 @@
- /*
+ #ifndef VARIADIC_FUNCTIONS_H
+#define VARIADIC_FUNCTIONS_H
+
+/*
  * File: variadic_functions.h
  * Auth: Tolulope Fakunle
  * Desc: Header file containing prototypes for all functions
@@ -13,7 +16,7 @@
  * @print: A function pointer to a function that prints
  *         a data type corresponding to symbol.
  */
- typedef struct printer
+typedef struct printer
 {
 	char *symbol;
 	void (*print)(va_list arg);
